@@ -26,6 +26,11 @@ pipeline {
                 echo "Changed to scm for H/2"
             }
         }
+        stage("Stage 6"){
+            steps{
+                echo "added new stage for newpipeline"
+            }
+        }
     }
 
 }
