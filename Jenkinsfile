@@ -18,7 +18,12 @@ pipeline {
         }
         stage("Stage 4"){
             steps{
-                echo " This is stage 4"
+                echo "Chnaged to scm for 2 mins"
+            }
+        }
+        stage("Stage 5"){
+            steps{
+                echo "Changed to scm for H/2"
             }
         }
     }
