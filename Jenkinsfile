@@ -26,6 +26,11 @@ pipeline {
                 echo "Changed to scm for H/2"
             }
         }
+        stage("Stage 6"){
+            steps{
+                echo "created a newtest branch for testing multibranch pipeline"
+            }
+        }
     }
 
 }
